@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .body{
+    background-color: #118CFE;
+  }
+
+  .bg {
+    background-color: #118CFE;
+    background-size: 100% 100%;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: #F0F0F0;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    font-size: 18px;
+    border-radius: 10px;
+    width: 270px;
+    height: 15px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #D9D9D9;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #D9D9D9;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #118CFE;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 135px;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
